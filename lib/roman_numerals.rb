@@ -1,5 +1,5 @@
 class RomanNumerals
-  @numerals = {
+  @NUMERALS = {
     "M" => 1000,
     "CM" => 900,
     "D" => 500,
@@ -16,7 +16,7 @@ class RomanNumerals
   }
 
   def self.convert(number)
-    @numerals.key(number)
+    @NUMERALS.key(number)
   end
 
 end
